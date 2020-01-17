@@ -55,6 +55,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    border:1px solid red;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,64 +68,59 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body{
-	width: 876px;
-	margin: 50px;
+    width: 880px;
+    flex-direction: column;
 }
 
-.links, .head, .top, .bottom{
-	display: flex;
+section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
 }
 
-.links{
-	justify-content: space-around;
+.top .menu nav{
+    display: flex;
+    justify-content: space-between;
 }
 
-.menu nav a{
-	margin: 0 25px;;
+nav a{
+    margin:2% 32px;
 }
 
-.head div{
-	width: 49%;
-	margin: 50px 0;
+.services{
+    margin:3% 0;
 }
 
 h1{
-	font-size:60px;
-	text-align: center;
-	margin:50px 100px 10px 100px;
-	
+    font-size: 25px;
 }
 
-.title p{
-	text-align: center;
-	margin: 10px 145px 70px 145px;
-	border: solid 2px black;
-	padding: 5px;
+.main{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:2% 0;
 }
 
-.line{
-	border-top: solid 1px black;
-	padding-top: 35px;
-}
-
-.top div{
-	width: 49%;
-}
-
-.middle-img{
-	margin:50px 0px;
+.main div{
+    width: 45%;
+    border: 1px solid black;
+    margin: 2%;
+    padding: 2%;
+    background-color: rgb(207, 230, 231);
 }
 
 .bottom div{
-	width: 33%;
+    width: 45%;
+    margin:30px 15px 0 0;
 }
 
-.contact{
-	margin:50px 0px;
-	border-top: solid 1px black;
-	padding-top: 40px;
+.end{
+    margin-top:7%;
 }
 
-footer{
-	margin:10% 38%;
-}
+
+
+
+
+
